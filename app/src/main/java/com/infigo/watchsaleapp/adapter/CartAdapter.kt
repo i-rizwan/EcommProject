@@ -14,7 +14,7 @@ class CartAdapter(private val listener: IcartListener) :
     var totalPrice: Int = 0
     var totalDiscount: Int = 0
 
-    class CartViewHolder(val binding: CartItemBinding) : RecyclerView.ViewHolder(binding.root)
+    inner class CartViewHolder(val binding: CartItemBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CartViewHolder {
         return CartViewHolder(

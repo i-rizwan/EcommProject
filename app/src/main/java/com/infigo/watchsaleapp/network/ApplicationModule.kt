@@ -1,6 +1,7 @@
 package com.infigo.watchsaleapp.network
 
 
+import com.infigo.watchsaleapp.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

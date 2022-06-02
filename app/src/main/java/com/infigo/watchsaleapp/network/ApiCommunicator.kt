@@ -1,6 +1,8 @@
 package com.infigo.watchsaleapp.network
 
 import com.example.watchstoreapp.model.CartItem
+import com.example.watchstoreapp.model.CategoryItem
+import com.infigo.watchsaleapp.model.ProductItem
 import com.infigo.watchsaleapp.model.User
 import retrofit2.Response
 import retrofit2.http.Body
@@ -24,5 +26,16 @@ interface ApiCommunicator {
     @GET("/delCartItem")
     suspend fun delCartItemResponse(@Body cartItem: ArrayList<CartItem>): Response<List<CartItem>>
 
+    @GET("/allCategory")
+    suspend fun getAllCategories(): Response<ArrayList<CategoryItem>>
 
+    @GET("/byCategory")
+    suspend fun getProductByCategory(@Query("pid") byId: String): Response<List<CategoryItem>>
+
+
+    @GET("/updateProduct")
+    suspend fun updateFavProduct(@Body productItem: ProductItem): Response<ProductItem>
+
+    @GET("/addToCart")
+    suspend fun addToCart(@Body productItem: ProductItem): Response<List<ProductItem>>
 }
