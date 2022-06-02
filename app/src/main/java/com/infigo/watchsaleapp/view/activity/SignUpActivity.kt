@@ -1,4 +1,4 @@
-package com.infigo.watchsaleapp.view
+package com.infigo.watchsaleapp.view.activity
 
 import android.content.DialogInterface
 import android.os.Bundle

@@ -1,7 +1,7 @@
 package com.infigo.watchsaleapp.network
 
-import com.example.watchstoreapp.model.CartItem
-import com.example.watchstoreapp.model.CategoryItem
+import com.infigo.watchsaleapp.model.CartItem
+import com.infigo.watchsaleapp.model.CategoryItem
 import com.infigo.watchsaleapp.model.ProductItem
 import com.infigo.watchsaleapp.model.User
 import retrofit2.Response

@@ -12,8 +12,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.watchstoreapp.model.CartItem
-import com.infigo.watchsaleapp.IBadgeUpdater
+import com.infigo.watchsaleapp.model.CartItem
+import com.infigo.watchsaleapp.view.IBadgeUpdater
 import com.infigo.watchsaleapp.adapter.CartAdapter
 import com.infigo.watchsaleapp.adapter.IcartListener
 import com.infigo.watchsaleapp.databinding.FragmentCartBinding

@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.watchstoreapp.model.CategoryItem
+import com.infigo.watchsaleapp.model.CategoryItem
 import com.infigo.watchsaleapp.databinding.CategoryItemBinding
 
 class CategoryAdapter(private val listener: ICategoryListener) :

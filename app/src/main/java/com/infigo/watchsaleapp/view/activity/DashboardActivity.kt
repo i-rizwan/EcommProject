@@ -1,7 +1,6 @@
-package com.infigo.watchsaleapp.view
+package com.infigo.watchsaleapp.view.activity
 
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.View
 import android.widget.TextView
@@ -16,8 +15,8 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationView
-import com.infigo.watchsaleapp.IBadgeUpdater
-import com.infigo.watchsaleapp.INavListener
+import com.infigo.watchsaleapp.view.IBadgeUpdater
+import com.infigo.watchsaleapp.view.INavListener
 import com.infigo.watchsaleapp.R
 import com.infigo.watchsaleapp.databinding.ActivityDashboardBinding
 import com.infigo.watchsaleapp.utils.SharedPreferenceManager

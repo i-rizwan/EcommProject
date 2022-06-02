@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.watchstoreapp.model.CartItem
+import com.infigo.watchsaleapp.model.CartItem
 import com.infigo.watchsaleapp.databinding.CartItemBinding
 
 class CartAdapter(private val listener: IcartListener) :

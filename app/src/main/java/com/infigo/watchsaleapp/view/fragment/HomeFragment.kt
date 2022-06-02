@@ -12,9 +12,9 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.watchstoreapp.model.CategoryItem
-import com.infigo.watchsaleapp.IBadgeUpdater
-import com.infigo.watchsaleapp.INavListener
+import com.infigo.watchsaleapp.model.CategoryItem
+import com.infigo.watchsaleapp.view.IBadgeUpdater
+import com.infigo.watchsaleapp.view.INavListener
 import com.infigo.watchsaleapp.adapter.CategoryAdapter
 import com.infigo.watchsaleapp.adapter.ICategoryListener
 import com.infigo.watchsaleapp.adapter.IProductListener

@@ -1,6 +1,6 @@
 package com.infigo.watchsaleapp.network
 
-import com.example.watchstoreapp.model.CartItem
+import com.infigo.watchsaleapp.model.CartItem
 import com.infigo.watchsaleapp.model.ProductItem
 import com.infigo.watchsaleapp.model.User
 import javax.inject.Inject

@@ -4,8 +4,8 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.watchstoreapp.model.CartItem
-import com.example.watchstoreapp.model.CategoryItem
+import com.infigo.watchsaleapp.model.CartItem
+import com.infigo.watchsaleapp.model.CategoryItem
 import com.infigo.watchsaleapp.model.ProductItem
 import com.infigo.watchsaleapp.model.User
 import com.infigo.watchsaleapp.network.ApiRepository

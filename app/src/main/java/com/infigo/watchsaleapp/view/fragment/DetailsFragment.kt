@@ -16,14 +16,14 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.bumptech.glide.Glide
-import com.infigo.watchsaleapp.IBadgeUpdater
-import com.infigo.watchsaleapp.INavListener
+import com.infigo.watchsaleapp.view.IBadgeUpdater
+import com.infigo.watchsaleapp.view.INavListener
 import com.infigo.watchsaleapp.R
 import com.infigo.watchsaleapp.databinding.FragmentDetailsBinding
 import com.infigo.watchsaleapp.model.ProductItem
 import com.infigo.watchsaleapp.utils.Constant
 import com.infigo.watchsaleapp.utils.Status
-import com.infigo.watchsaleapp.view.FullScreenActivity
+import com.infigo.watchsaleapp.view.activity.FullScreenActivity
 import com.infigo.watchsaleapp.viewModel.LoginViewModel
 
 class DetailsFragment : Fragment() {

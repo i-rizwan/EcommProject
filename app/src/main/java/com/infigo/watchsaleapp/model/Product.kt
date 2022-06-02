@@ -1,4 +1,4 @@
-package com.example.watchstoreapp.model
+package com.infigo.watchsaleapp.model
 
 import com.infigo.watchsaleapp.model.ProductItem
 

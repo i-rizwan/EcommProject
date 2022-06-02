@@ -1,4 +1,4 @@
-package com.example.watchstoreapp.model
+package com.infigo.watchsaleapp.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

@@ -1,3 +1,3 @@
-package com.example.watchstoreapp.model
+package com.infigo.watchsaleapp.model
 
 class Category : ArrayList<CategoryItem>()

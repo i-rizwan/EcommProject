@@ -1,4 +1,4 @@
-package com.example.watchstoreapp.model
+package com.infigo.watchsaleapp.model
 
 data class CategoryItem(
     var id: String? = "",
